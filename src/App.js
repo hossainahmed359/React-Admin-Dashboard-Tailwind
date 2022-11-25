@@ -26,6 +26,7 @@ import "./App.css"
 
 import { useStateContext } from "./contexts/ContextProvider"
 
+// 1.28.41 min
 const App = () => {
   const { activeMenu } = useStateContext()
   return (
